@@ -5,80 +5,104 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/js.js"></script>
         <title>Portfolio Maxime Ribes</title>
         <link rel="icon" type="image/x-icon" href="assets/img/m.jpg" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/01e96949f9.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Barre de navigation-->
-        <header>
-            <nav>
-                <div class="initiale">
-                    <a>MR</a>
-                </div>
-                <div class="liste-menu">
-                    <ul>
-                        <li class=""><a href="index.html">Accueil</a></li>
-                        <li class=""><a href="entreprise.html">Entreprise</a></li>
-                        <li class=""><a href="projets.html">Projets</a></li>
-                        <li class=""><a href="veille.html">Veille technologique</a></li>
-                    </ul>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg fixed-top py-3">
+                <div class="container"><a class="navbar-brand text-uppercase font-weight-bold">MR</a>
+                    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                    
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Accueil</a></li>
+                            <li class="nav-item"><a href="entreprise.html" class="nav-link text-uppercase font-weight-bold">Entreprise</a></li>
+                            <li class="nav-item"><a href="projets.html" class="nav-link text-uppercase font-weight-bold">Projets</a></li>
+                            <li class="nav-item"><a href="veille.html" class="nav-link text-uppercase font-weight-bold">Veille</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
+
         <main>
-            <h1>Bonjour</h1>
-            <h1>Bienvenue sur le portfolio de Maxime Ribes</h1>
-            <h1>Présentation</h1>
-            <p>Je suis Maxime Ribes, étudiant en BTS SIO SLAM à l'ESIEE IT, école de la CCI Paris</p>
-            <!--Compétences-->
-            <div class="container">
-                <div class="titre-partie">
-                    <h2>Compétences</h2>
-                </div>
-                <div class="row">
-                    <div style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;" class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/competences/HTML5.jpg" alt="logo HTML5" />
-                    </div>
-                    <p style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
-                    <div class="container-timeline-competence" style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 3; grid-row-end: 4;" >
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    </div>
-                    <div style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;" class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/competences/CSS3.jpg" alt="logo CSS3" />
-                    </div>
-                    <p style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
-                    <div class="container-timeline-competence" style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 3; grid-row-end: 4;" >
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    </div>
-                    <div style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;" class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/competences/Java.jpg" alt="logo JAVA" />
-                    </div>
-                    <p style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
-                    <div class="container-timeline-competence" style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 3; grid-row-end: 4;">
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                        <img class="timeline-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    </div>
+            <!--Présentation-->
+        <h2>Présentation</h2>
+        <div class="row">
+            <div class="card">
+                <div stle ="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;">
+                    Maxime Ribes
                 </div>
             </div>
-            <footer>
-                <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/maxime-ribes/"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="https://github.com/MaximeRibes/"><i class="fab fa-github"></i></a>          
-                <a class="btn btn-dark btn-social mx-2" href="https://gitlab.com/MaximeRibes/RIBES"><i class="fab fa-gitlab"></i></a>
-            </footer>
-        </main>
-    </body>
+            <div class="card">
+                <div stle ="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;">
+                    Diplômes
+                </div>
+            </div>
+            <div class="card">
+                <div stle ="grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;">
+                    Expériences
+                </div>
+            </div>
+        </div>
+        <hr>
+            <!--Compétences-->
+        <div class="container">
+            <div class="titre-partie">
+                <h2>Compétences</h2>
+            </div>
+            <div class="rows">
+                <div style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;" class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/competences/HTML5.jpg" alt="logo HTML5" />
+                </div>
+                <p style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
+                <div class="container-niveau-competence" style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 3; grid-row-end: 4;" >
+                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                </div>
+                <div style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;" class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/competences/CSS3.jpg" alt="logo CSS3" />
+                </div>
+                <p style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
+                <div class="container-niveau-competence" style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 3; grid-row-end: 4;" >
+                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                </div>
+                <div style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;" class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/competences/Java.jpg" alt="logo JAVA" />
+                </div>
+                <p style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
+                <div class="container-niveau-competence" style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 3; grid-row-end: 4;">
+                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/maxime-ribes/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://github.com/MaximeRibes/"><i class="fab fa-github"></i></a>          
+            <a class="btn btn-dark btn-social mx-2" href="https://gitlab.com/MaximeRibes/RIBES"><i class="fab fa-gitlab"></i></a>
+        </footer>
+    </main>
+</body>
 </html>
