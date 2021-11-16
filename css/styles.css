@@ -71,10 +71,9 @@ h2 {
     text-align:center;
 }
 
-h3 {
-    margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2;
+.cards .card h3 {
+    font-size: 15px;
+    margin-top: 50px;
 }
 
 hr {
@@ -105,7 +104,7 @@ footer {
     bottom: 0;
     background-color:#fff;
     padding: 10px;
-    display: flex!important;
+    display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
@@ -147,6 +146,16 @@ footer {
     max-width: 33.3333333333%;
 }
 
+.card {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20;
+    line-height: 20px;
+    border: solid 0.1em;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
 .team-member{
     margin-bottom: 0.6rem;
     text-align: center;
@@ -171,7 +180,7 @@ footer {
   }
 
 .rounded-circle {
-    border-radius: 50% !important;
+    border-radius: 50%;
 }
 
 .titre-partie {
@@ -192,13 +201,4 @@ footer {
     align-items:center;
     justify-content:center;
     width:100%;
-}
-
-.card {
-    margin: 5px;
-    margin-bottom: 50px;
-    padding: 20;
-    line-height: 20px;
-    border: solid 0.1em;
-    border-color: #fff;
 }
