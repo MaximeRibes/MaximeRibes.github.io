@@ -156,6 +156,11 @@ footer {
     border-radius: 2px;
 }
 
+div.card > ul {
+    list-style: none;
+    text-align: center;
+}
+
 .team-member{
     margin-bottom: 0.6rem;
     text-align: center;
@@ -166,7 +171,7 @@ footer {
 .team-member img {
     width: 14rem;
     height: 14rem;
-    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border: 0.2rem solid black !important;
 }
 
 .niveau-competence {
