@@ -71,9 +71,10 @@ h2 {
     text-align:center;
 }
 
-.cards .card h3 {
-    font-size: 15px;
-    margin-top: 50px;
+h3 {
+    font-size: 30px;
+    margin: 25px;
+    margin-top: 40px;
 }
 
 hr {
@@ -206,4 +207,8 @@ div.card > ul {
     align-items:center;
     justify-content:center;
     width:100%;
+}
+
+ul {
+    text-align: center;
 }
