@@ -3,19 +3,19 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+        <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/js.js"></script>
         <title>Portfolio Maxime Ribes</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/m.jpg" />
+        <link rel="icon" type="image/x-icon" href="assets/img/m.png" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/font-awesome.min.css" rel="stylesheet" />
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/01e96949f9.js" crossorigin="anonymous"></script>
+        <!--<link href="css/font-awesome.min.css" rel="stylesheet" />-->
+        <!--<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>-->
     </head>
     <body>
         <!-- Barre de navigation-->
@@ -29,28 +29,51 @@
                             <li class="nav-item"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Accueil</a></li>
                             <li class="nav-item"><a href="entreprise.html" class="nav-link text-uppercase font-weight-bold">Entreprise</a></li>
                             <li class="nav-item"><a href="projets.html" class="nav-link text-uppercase font-weight-bold">Projets</a></li>
-                            <li class="nav-item"><a href="veille.html" class="nav-link text-uppercase font-weight-bold">Veille</a></li>
+                            <li class="nav-item"><a href="veille.php" class="nav-link text-uppercase font-weight-bold">Veille</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-
+        <div class="bienvenue">
+            <a>Bienvenue sur le portfolio de </a>
+        </div>
+        <div class="accueil">
+            <svg>
+                <path d="M 10,10 L 10,130 L 30,130 L 30,40 L 60,60 L 90,40 L 90,130 L 110,130 L 110,10 L 90,10 L 60,30 L 30,10 L 10,10">
+            </svg>
+            <svg>
+                <path d="M 10,130 L 50,10 L 70,10 L 110,130 L 90,130 L 73,80 L 47,80 L 30,130 L 10,130 M 49,65 L 70,65 L 61,40 L 58,40 L 49,65">
+            </svg>
+            <svg>
+                <path d="M 110,10 L 75,70 L 110,130 L 85,130 L 60,85 L 35,130 L 10,130 L 45,70 L 10,10 L 35,10 L 60,55 L 85,10 L 110,10">
+            </svg>
+            <svg>
+                <path d="M 70,10 L 70,130 L 50,130 L 50,10 L 70,10">
+            </svg>
+            <svg>
+                <path d="M 90,40 L 90,130 L 110,130 L 110,10 L 90,10 L 60,30 L 30,10 L 10,10 L 10,10 L 10,130 L 30,130 L 30,40 L 60,60 Z">
+            </svg>
+            <svg>
+                <path d="M 10,10 L 10,130 L 100,130 L 100,105 L 35,105 L 35,80 L 75,80 L 75,60 L 35,60 L 35,35 L 100,35 L 100,10 L 10,10">
+            </svg>            
+        </div>
         <main>
             <!--Présentation-->
-        <h2>Présentation</h2>
+        <h1>Présentation</h1>
         <div class="row">
             <div class="card">
                 <div stle ="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;">
-                    <h3>Maxime Ribes</h3>
+                    <h2>Maxime Ribes</h2>
                     <ul>
                         <li><a href="assets/img/RIBES_Maxime_BTS_SIO_SLAM.pdf" style="color: black !important;">Mon CV !</a></li>
+                        <li><a href="assets/img/attestation_atelier_rgpd.pdf" style="color: black !important;">Attestation réussite au MOOC de la CNIL</a></li>
                     </ul>
                 </div>
             </div>
             <div class="card">
                 <div stle ="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;">
-                    <h3>Diplômes</h3>
+                    <h2>Diplômes</h2>
                     <ul>
                         <li>Bac S (2015)</li>
                         <li>BTS SIO (2022)</li>
@@ -59,7 +82,7 @@
             </div>
             <div class="card">
                 <div stle ="grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;">
-                    <h3>Expériences</h3>
+                    <h2>Expériences</h2>
                     <ul>
                         <li>CEGAPE (2021-2022)</li>
                     </ul>
@@ -67,54 +90,99 @@
             </div>
         </div>
         <hr>
-            <!--Compétences-->
+        <!--Compétences-->
+        <div class="titre-partie">
+            <h1>Compétences</h1>
+        </div>
         <div class="container">
-            <div class="titre-partie">
-                <h2>Compétences</h2>
-            </div>
             <div class="rows">
-                <div style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;" class="team-member">
+                <div style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2;" class="logo-competence">
                     <img class="mx-auto rounded-circle" src="assets/img/competences/HTML5.jpg" alt="logo HTML5" />
                 </div>
                 <p style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
-                <div class="container-niveau-competence" style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 3; grid-row-end: 4;" >
-                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                <div class="skill-bar">
+                    <div class="bar" style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 3; grid-row-end: 4;">
+                        <div class="progress-line html" >
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
-                <div style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;" class="team-member">
+                <div style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;" class="logo-competence">
                     <img class="mx-auto rounded-circle" src="assets/img/competences/CSS3.jpg" alt="logo CSS3" />
                 </div>
                 <p style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
-                <div class="container-niveau-competence" style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 3; grid-row-end: 4;" >
-                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                <div class="skill-bar">
+                    <div class="bar" style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 3; grid-row-end: 4;">
+                        <div class="progress-line css" >
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
-                <div style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;" class="team-member">
+                <div style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;" class="logo-competence">
                     <img class="mx-auto rounded-circle" src="assets/img/competences/Java.jpg" alt="logo JAVA" />
                 </div>
                 <p style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 2; grid-row-end: 3;" class="text-muted">Niveau</p>
-                <div class="container-niveau-competence" style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 3; grid-row-end: 4;">
-                    <img class="niveau-competence" src="assets/img/competences/barre-verte.jpg" alt="barre verte" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
-                    <img class="niveau-competence" src="assets/img/competences/barre-rouge.png" alt="barre rouge" />
+                <div class="skill-bar">
+                    <div class="bar" style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 3; grid-row-end: 4;">
+                        <div class="progress-line java" >
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
+                <div style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 4; grid-row-end: 5; margin-top: 40px;" class="logo-competence">
+                    <img class="mx-auto rounded-circle" src="assets/img/competences/python.png" alt="logo Python" />
+                </div>
+                <p style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 5; grid-row-end: 6;" class="text-muted">Niveau</p>
+                <div class="skill-bar">
+                    <div class="bar" style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 6; grid-row-end: 7;">
+                        <div class="progress-line python" >
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 4; grid-row-end: 5; margin-top: 40px;" class="logo-competence">
+                    <img class="mx-auto rounded-circle" src="assets/img/competences/php.webp" alt="logo PhP" />
+                </div>
+                <p style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 5; grid-row-end: 6;" class="text-muted">Niveau</p>
+                <div class="skill-bar">
+                    <div class="bar" style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 6; grid-row-end: 7;">
+                        <div class="progress-line php" >
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 4; grid-row-end: 5; margin-top: 40px;" class="logo-competence">
+                    <img class="mx-auto rounded-circle" src="assets/img/competences/mysql.png" alt="logo MySQL" />
+                </div>
+                <p style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 5; grid-row-end: 6;" class="text-muted">Niveau</p>
+                <div class="skill-bar">
+                    <div class="bar" style="grid-column-start: 3; grid-column-end: 4; grid-row-start: 6; grid-row-end: 7;">
+                        <div class="progress-line mysql" >
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom:15px;"></div>
             </div>
         </div>
-        <footer>
-        <div class="col-lg-4 text-lg-left">Copyright © MaximeRibes 2021</div>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/maxime-ribes/"><i class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://github.com/MaximeRibes/"><i class="fab fa-github"></i></a>          
-            <a class="btn btn-dark btn-social mx-2" href="https://gitlab.com/MaximeRibes/RIBES"><i class="fab fa-gitlab"></i></a>
-        <div class="col-lg-4 text-lg-right"><a href="assets\img\Mentions_légales.pdf">Mentions légales</a></div>
-        </footer>
+        <div class="container">
+            <div class="div1">
+                <div class="titre-div">Poursuite d'études</div>
+                <ul>
+                    <li>▸Formation Bac+5 INGÉNIEUR : Informatique et Applications - Ingénierie 3D et Technologie des médias en alternance</li>
+                    <li>▸Formation Bac+5 Master Expert en Ingénierie Informatique et Innovation Numérique E3IN parcours Intelligence Artificielle et Big Data en alternance</li>
+                    <li>▸Bac+5 Expert en Ingénierie Informatique et Innovation Numérique (E3IN) parcours Cybersécurité en alternance</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-bottom:15px;"></div>
     </main>
-</body>
+        <footer>
+            <div class="col-lg-4 text-lg-left">Tous droits réservés © MaximeRibes 2021</div>
+                <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/maxime-ribes/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://github.com/MaximeRibes/"><i class="fab fa-github"></i></a>          
+                <a class="btn btn-dark btn-social mx-2" href="https://gitlab.com/MaximeRibes/"><i class="fab fa-gitlab"></i></a>  
+            <div class="col-lg-4 text-lg-right"><a href="assets\img\mentions_legales.pdf">Mentions légales</a></div>
+        </footer>  
+    </body>
 </html>
